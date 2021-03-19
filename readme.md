@@ -1,10 +1,10 @@
 OOP PHP , MySQl , HTML ,CSS
 ___
-## Simple registration and login system using PHP and MySQL.
+### Simple registration and login system using PHP and MySQL.
 
 
 ___
-# Instalation 
+### Instalation 
 1. Create a table with columns id,login,password,email,time in phpMyAdmin.
 2. Insert your database configurations in config.php file.
 ___
