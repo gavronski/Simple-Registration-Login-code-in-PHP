@@ -11,7 +11,7 @@ ___
 
 # Files
 
-* ## index.php
+* #### index.php
 This script displays the registration form. 
 When the user submits the filled form, the script calls out methods to initialize databese seetings and passes data.
 
