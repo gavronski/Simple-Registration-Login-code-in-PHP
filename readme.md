@@ -44,5 +44,5 @@ Sets and gets page and message depends on login form inputs.
 * ### Monit.php 
 Displays information referenced to passed email and password in login.php.
 
-* ### messagge.php
+* ### message.php
 Displays main heading.
