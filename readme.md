@@ -1,6 +1,6 @@
 OOP PHP , MySQl , HTML ,CSS
 ___
-## PHP registration/login form which saves and reads users data using PDO. 
+## Simple registration and login system using PHP and MySQL.
 
 
 ___
