@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext');
+body{
+          font-size:100%;
+          font-size: 16px;
+          line-height: 1.5;
+          padding: 0;
+          margin: 0;
+          font-family: 'Montserrat',sans-serif;
+          font-weight: 500;
+          background-image: linear-gradient(#ff8a00, #e52e71); 
+          /* background-size: cover;
+          background-attachment: fixed; */
+
+}
+h1{
+          font-size:2.25rem;
+          font-weight: 600;
+}
+h2{
+          font-size:2.25rem;
+          font-weight: 400;
+}
+a{
+          text-decoration: none;
+          color: #233975;
+
+}
+a:hover{
+          text-decoration: underline;
+}
+.container{
+          display: flex;
+          flex-direction: column;
+}
+
+.left{
+          height: 200px;
+          
+          
+}
+.left ,.right{
+          display: flex;
+          justify-content:center;
+          align-items: center;
+}
+.right .copy {
+          text-align: center;
+}
+.right .copy p  {
+          margin: 1.5rem 0;
+}
+.right form{
+          width: 328px;
+}
+
+form input[type=text],
+form input[type=password],
+form input[type=email],
+form input[type=submit],
+input[type=submit],
+form {
+          box-sizing: border-box;
+          border-radius: 8px;
+          width: 100%;
+          margin-bottom: 1.25rem;
+          font-family: 'Montserrat',sans-serif;
+          padding: 1rem;
+          -moz-box-shadow: 0 0 8px #88D5E9;
+          -webkit-box-shadow: 0 0 8px #88D5E9;
+          box-shadow: 0 0 8px #88D5E9;
+          border: 1px solid #88D5E9;}
+form input[type=text]:active,
+form input[type=password]:active,
+form input[type=email]:active,
+form input[type=submit]:active,
+input[type=submit]:active,
+form :active {
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9}
+
+label{
+          font-size: 0.85rem;
+          font-weight: 200;
+}
+form input[type=submit]{
+          background:#88D5E9;
+          color: black;
+}
+
+@media screen and (min-width:900px){
+          .container{
+                    flex-direction: row;
+                    height: 100vh;
+          }
+          .left,.right{
+                    display: flex;
+                    width: 50%;
+                    height: auto;
+          }
+}
